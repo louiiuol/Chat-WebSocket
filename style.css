@@ -1,0 +1,29 @@
+body {
+    background-color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1 {
+    text-align: center;
+    color: #999
+}
+#zone_chat {
+    background-color: whitesmoke;
+    width: 60vw;
+    margin: 2px auto;
+    padding: .5rem 1rem;
+    box-shadow: 1px 2px 4px rgba(245, 245, 245, .6);
+}
+#zone_chat strong {
+    color: green;
+    padding: 8px;
+}
+#zone_chat em {
+    color: #AAA;
+    padding: 8px;
+}
+form {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}

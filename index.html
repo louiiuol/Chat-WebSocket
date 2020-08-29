@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <h1>WebSocket Chat (demo)</h1>
+    <form action="/" method="post" id="form_chat">
+      <input  type="text" id="message"
+        placeholder="write here ..."
+        size="50" autofocus />
+      <input type="submit" id="send_message" value="Send" />
+    </form>
+    <section id="zone_chat">
+      <div id="feedback"></div>
+    </section>
+
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
